@@ -29,8 +29,8 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/htc/hero" name="android_device_htc_hero" remote="TeamICS" />
-  <project path="device/htc/heroc" name="android_device_htc_heroc" remote="TeamICS" />
+  <project path="device/htc/hero" name="android_device_htc_hero" remote="TeamICS" revision="ics" />
+  <project path="device/htc/heroc" name="android_device_htc_heroc" remote="TeamICS" revision="ics" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
@@ -247,9 +247,9 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="cm" revision="gingerbread" />
-  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" />
-  <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" />
-  <project path="manifest" name="manifest_ics_gs_master" remote="TeamICS" />
-  <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" />
+  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" revision="ics" />
+  <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" revision="ics" />
+  <project path="manifest" name="manifest_ics_gs_master" remote="TeamICS" revision="ics" />
+  <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" revision="ics" />
 
 </manifest>
